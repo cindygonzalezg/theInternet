@@ -1,0 +1,22 @@
+html{
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+}
+.navbar-nav > li{
+    margin-left:30px;
+}
+header{
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-dark,.navbar-nav, .nav-link.active{
+    color: #5b47ee !important;
+}
+.nav-dark,.navbar-nav, .nav-link:hover {
+    color: #5B47EE !important;
+}
+nav {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.homepage{
+    height: 100%;
+}
