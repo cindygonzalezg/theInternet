@@ -1,12 +1,15 @@
 html{
     scroll-behavior: smooth;
     background-color: #ffffff;
+    font-size: 100%;
+    max-width: 100% !important;
 }
 .navbar-nav > li{
     margin-left:30px;
 }
 header{
     font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
 }
 .nav-dark,.navbar-nav, .nav-link.active{
     color: #5b47ee !important;
@@ -19,4 +22,117 @@ nav {
 }
 .homepage{
     height: 100%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6em;
+    font-weight: bolder;
+    color: #F5C519;
+}
+.aboutsection{
+    background-image: url("../imgs/anas-alshanti-feXpdV001o4-unsplash.jpg");
+}
+/**************************
+  DEFAULT BOOTSTRAP STYLES
+**************************/
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 10px 16px;
+}
+
+.btn-lg {
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #3276b1;
+    border-color: #285e8e;
+}
+
+/***********************
+  GRADIENT BUTTONS
+************************/
+.btn-primary.gradient {
+    background: -moz-linear-gradient(top,  #7500BA 50%, #5902B2 50%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#7500BA), color-stop(50%,#5902B2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #7500BA 50%,#5902B2 50%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #7500BA 50%,#5902B2 50%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #7500BA 50%,#5902B2 50%); /* IE10+ */
+    background: linear-gradient(to bottom,  #7500BA 50%,#5902B2 50%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33a6cc', endColorstr='#0099cc',GradientType=0 ); /* IE6-9 */
+}
+.btn-primary.gradient:hover, .btn-primary.gradient:focus, .btn-primary.gradient:active, .btn-primary.gradient.active, .open > .dropdown-toggle.btn-primary {
+    background: -moz-linear-gradient(top,  #9a13e9 50%, #7500BA 50%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#9a13e9), color-stop(50%,#7500BA)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #9a13e9 50%,#7500BA 50%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #9a13e9 50%,#7500BA 50%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #9a13e9 50%,#7500BA 50%); /* IE10+ */
+    background: linear-gradient(to bottom,  #9a13e9 50%,#7500BA 50%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66b2cc', endColorstr='#33a6cc',GradientType=0 ); /* IE6-9 */
+}
+.btn-primary.gradient:active, .btn-primary.gradient.active {
+    background: -moz-linear-gradient(top,  #5c0291 50%, #510280 50%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#5c0291), color-stop(50%,#510280)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #5c0291 50%,#510280 50%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #5c0291 50%,#510280 50%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #5c0291 50%,#510280 50%); /* IE10+ */
+    background: linear-gradient(to bottom,  #5c0291 50%,#510280 50%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#267c99', endColorstr='#007299',GradientType=0 ); /* IE6-9 */
+}
+
+/***********************
+  CUSTON BTN VALUES
+************************/
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+    background: #5902B2;
+    color: #ffffff;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #7500BA;
+}
+.btn-primary:active, .btn-primary.active {
+    background: #510280;
+    box-shadow: none;
 }
