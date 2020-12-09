@@ -97,6 +97,71 @@ p.port:hover{
     opacity: 100%!important;
     color: white;
 }
+.box1{
+    width: 90%;
+    height: 230px;
+    z-index: 2;
+    position: absolute;
+    background-color: #FFF2C5;
+    margin-top: 5%;
+}
+.box2{
+    width: 90%;
+    height: 230px;
+    z-index: 1;
+    position: absolute;
+    background-color:#F5C519 ;
+    margin-left: 5%;
+}
+.box3{
+    width: 90%;
+    height: 230px;
+    z-index: 2;
+    position: absolute;
+    background-color: #7049fc;
+    margin-top: 5%;
+}
+.box4{
+    width: 90%;
+    height: 230px;
+    z-index: 1;
+    position: absolute;
+    background-color: #4919f5;
+    margin-left: 5%;
+}
+.toplinks{
+    text-decoration: none;
+    color: #6d6c6c;
+}
+.toplinks:hover{
+    text-decoration: none;
+    color: black;
+}
+.pic{
+    width: 100%;
+    padding-right: 20%;
+    padding-bottom: 10%;
+    height: 300px;
+    opacity: 100%;
+}
+.cards{
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+.cardlink{
+    text-decoration: none;
+    color: #000000;
+    height: 300px;
+}
+.cardlink:hover{
+    text-decoration: none;
+    color: #696969;
+}
+.foot{
+    font-size: 0.9rem;
+    color: #999898;
+}
 /**************************
   DEFAULT BOOTSTRAP STYLES
 **************************/
