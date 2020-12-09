@@ -22,6 +22,8 @@ nav {
 }
 .homepage{
     height: 100%;
+    margin-top: 220px;
+    margin-bottom: 220px;
 }
 h1{
     font-family: 'Montserrat', sans-serif;
@@ -29,8 +31,71 @@ h1{
     font-weight: bolder;
     color: #F5C519;
 }
+h3{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
 .aboutsection{
     background-image: url("../imgs/anas-alshanti-feXpdV001o4-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 83vh;
+}
+.transparent{
+    background-color: rgba(255, 255, 255, 0.6);
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 15px;
+    border-radius: 15px;
+}
+.abouttext{
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2rem;
+    margin: 2rem 2rem;
+    font-weight: bold;
+}
+.button {
+    display: block;
+    width: 90%;
+    background-color: #F5C519;
+    color: black;
+    text-align: left;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+.link{
+    text-decoration: none!important;
+}
+.button:hover{
+    font-weight: bolder;
+    background-color: #ffd87a;
+    color: black;
+    font-size: 1.2rem;
+}
+footer{
+    height: 16vh;
+    background-color: #2D208B;
+}
+.footerimg{
+    width: 2.5rem;
+    opacity: 70%;
+}
+.portfolio{
+    text-align: center;
+    text-decoration: none!important;
+    color: white;
+}
+.footerimg:hover{
+    opacity: 100%;
+    color: white;
+}
+p.port:hover{
+    opacity: 100%!important;
+    color: white;
 }
 /**************************
   DEFAULT BOOTSTRAP STYLES
