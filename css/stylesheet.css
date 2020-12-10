@@ -162,6 +162,35 @@ p.port:hover{
     font-size: 0.9rem;
     color: #999898;
 }
+.article{
+    margin-top: 220px;
+}
+.text{
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 4rem;
+}
+h4{
+    font-size: 1rem;
+}
+.side{
+    color: grey;
+    font-family: 'Lora', sans-serif;
+}
+.sidelink{
+    text-decoration: none;
+    color: grey;
+    font-family: 'Lora', sans-serif;
+}
+.sidelink:hover{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lora', sans-serif;
+}
+.spacelink{
+    margin-bottom: 3rem;
+}
 /**************************
   DEFAULT BOOTSTRAP STYLES
 **************************/
