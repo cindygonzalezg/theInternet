@@ -191,6 +191,11 @@ h4{
 .spacelink{
     margin-bottom: 3rem;
 }
+h2{
+    font-size: 1.7rem;
+    padding-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
 /**************************
   DEFAULT BOOTSTRAP STYLES
 **************************/
