@@ -197,6 +197,13 @@ h2{
     padding-top: 2rem;
     font-family: 'Montserrat', sans-serif;
 }
+.arrow{
+    text-decoration: none;
+    color: #b89412;
+}
+.arrow:hover{
+    color: #735d0a;
+}
 /**************************
   DEFAULT BOOTSTRAP STYLES
 **************************/
