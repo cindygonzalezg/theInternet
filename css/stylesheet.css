@@ -79,7 +79,7 @@ h3{
 footer{
     height: 16vh;
     background-color: #2D208B;
-    margin-top: 8rem;
+    margin-top: 8rem!important;
 }
 .footerimg{
     width: 2.5rem;
@@ -199,10 +199,10 @@ h2{
 }
 .arrow{
     text-decoration: none;
-    color: #b89412;
+    color: #b89412!important;
 }
 .arrow:hover{
-    color: #735d0a;
+    color: #735d0a!important;
 }
 /**************************
   DEFAULT BOOTSTRAP STYLES
